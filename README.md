@@ -122,3 +122,28 @@ En este caso se muestra solo evidencia del proxy pero se hace lo  mismo para Luc
 <p align="center">
 <img src="./src/main/resources/static/img/instancias.png" alt="" width="700px">
 </p>
+
+
+### Instalar dependencias en las instancias
+
+- Actualizacion de los paquetes con:
+```bash
+sudo yum update -y
+```
+
+- instalamos Git
+```bash
+sudo yum install git -y
+```
+- Instalamos java
+
+```bash
+sudo yum install java-17 -y
+```
+
+<p align="center">
+<img src="./src/main/resources/static/img/fin.png" alt="" width="700px">
+</p>
+
+### FALTO POR ENTREGAR
+El despliegue total en AWS pues solo alcance a crear las instancias e instalar unos paquetes; sin embargo el proyecto  esta totalmente Funcional Localmente :)
