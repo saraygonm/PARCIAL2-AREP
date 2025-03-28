@@ -103,4 +103,22 @@ http://localhost:8081/
 ---
 ## Despliegue en AWS
 
+- Primero se deben crear las instancias una para el proxy y la otra para LucasSeq
 
+<p align="center">
+<img src="./src/main/resources/static/img/proxy.png" alt="" width="700px">
+</p>
+
+- se agrega la red TCP con puerto 8082 para proxy y 8081 para LucasSeq
+<p align="center">
+<img src="./src/main/resources/static/img/proxy2.png" alt="" width="700px">
+</p>
+
+En este caso se muestra solo evidencia del proxy pero se hace lo  mismo para LucasSeq
+
+
+## Evidencia de las dos instancias creadas 
+
+<p align="center">
+<img src="./src/main/resources/static/img/instancias.png" alt="" width="700px">
+</p>
